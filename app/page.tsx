@@ -13,7 +13,7 @@ export default function Home() {
       {/* Logo di pojok kiri atas */}
       <div className="absolute top-4 left-6 z-20 animate-fadeIn">
         <Image
-          src="/asset/logo.png"
+          src="/asset/logo1.png"
           alt="Logo Creanomic"
           width={120}
           height={40}
