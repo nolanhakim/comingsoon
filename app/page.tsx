@@ -13,9 +13,9 @@ export default function LombaSection() {
       title: "Web Development",
       desc: "Lomba yang menantang peserta untuk membangun website inovatif dengan desain dan fungsi menarik.",
       finalists: [
-        { name: "AG TIM", institution: "Universitas Brawijaya" },
+        { name: "Delta Dev", institution: "Politeknik Negeri Malang" },
         { name: "Tim Icikiwir", institution: "Politeknik Negeri Jember" },
-        { name: "Delta Dev", institution: "Politeknik Negeri Malang" }
+        { name: "AG TIM", institution: "Universitas Brawijaya" }
       ]
     },
     {
@@ -25,8 +25,8 @@ export default function LombaSection() {
       desc: "Kompetisi yang menguji kemampuan perencanaan keuangan dalam menghadapi tantangan ekonomi modern.",
       finalists: [
         { name: "Sultan Wannabe", institution: "Universitas Bina Nusantara Malang" },
-        { name: "Winner Creanomic2025", institution: "Universitas Brawijaya" },
-        { name: "Revival", institution: "Universitas Brawijaya" }
+        { name: "Revival", institution: "Universitas Brawijaya" },
+        { name: "Winner Creanomic2025", institution: "Universitas Brawijaya" }
       ]
     },
     {
@@ -35,9 +35,9 @@ export default function LombaSection() {
       title: "Business Case",
       desc: "Peserta menganalisis dan memecahkan studi kasus bisnis nyata untuk memberikan solusi strategis.",
       finalists: [
+        { name: "Profittera Team", institution: "Universitas Brawijaya" },
         { name: "3 Trio Vetdal", institution: "Universitas Brawijaya" },
-        { name: "Triverra", institution: "Universitas Brawijaya" },
-        { name: "Profittera Team", institution: "Universitas Brawijaya" }
+        { name: "Triverra", institution: "Universitas Brawijaya" }
       ]
     },
     {
@@ -46,9 +46,9 @@ export default function LombaSection() {
       title: "LKTI",
       desc: "Lomba Karya Tulis Ilmiah yang mendorong inovasi dan riset untuk memberikan kontribusi nyata bagi masyarakat.",
       finalists: [
-        { name: "DejaVu Team", institution: "Universitas Brawijaya" },
-        { name: "G Valleay ", institution: "Universitas Islam Negeri Maulana Malik Ibrahim Malang" },
-        { name: "RERA", institution: "Universitas Andalas" }
+        { name: "G Valley", institution: "Universitas Islam Negeri Maulana Malik Ibrahim Malang" },
+        { name: "RERA", institution: "Universitas Andalas" },
+        { name: "DejaVu Team", institution: "Universitas Brawijaya" }
       ]
     },
     {
@@ -170,9 +170,11 @@ export default function LombaSection() {
                     className="group relative"
                   >
                     <div className="relative bg-gradient-to-br from-white to-gray-50 rounded-2xl p-6 h-full border-2 border-[#5F1124]/10 hover:border-[#5F1124]/30 transition-all duration-300 overflow-hidden">
-                      {/* Finalist Badge */}
+                      {/* Ranking Badge */}
                       <div className="absolute top-4 right-4 px-3 py-1 bg-gradient-to-br from-[#5F1124] to-[#8B1538] rounded-full flex items-center justify-center shadow-lg">
-                        <span className="text-white font-bold text-xs">FINALIST</span>
+                        <span className="text-white font-bold text-xs">
+                          {index === 0 ? "1ST" : index === 1 ? "2ND" : "3RD"}
+                        </span>
                       </div>
 
                       {/* Trophy Icon */}
