@@ -96,11 +96,11 @@ export default function LombaSection() {
           transition={{ duration: 0.8 }}
           className="text-2xl md:text-3xl font-extrabold text-[#5F1124] mb-2 text-center"
         >
-          FINALIS BIDANG LOMBA
+          JUARA BIDANG LOMBA
         </motion.h2>
 
         <p className="text-gray-700 mb-10 max-w-2xl mx-auto text-center">
-          Berikut adalah 3 finalis terbaik dari setiap bidang lomba CREANOMIC 2025
+          Creanomic 2025 sukses diselenggarakan dengan jumlah pendaftar sebanyak 283 peserta yang berasal dari 27 perguruan tinggi, termasuk Universitas Brawijaya. Peserta yang berpartisipasi berasal dari 11 provinsi di Indonesia, termasuk Jawa Timur. Para peserta terbagi ke dalam dua kategori lomba, yaitu kategori tim dan kategori individu pada cabang lomba Creative Poster.
         </p>
 
         {/* === GAMBAR LABEL LOMBA (SATU GAMBAR) === */}
