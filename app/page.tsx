@@ -100,7 +100,6 @@ export default function LombaSection() {
         </motion.h2>
 
         <p className="text-gray-700 mb-10 max-w-2xl mx-auto text-center">
-          Creanomic 2025 sukses diselenggarakan dengan jumlah pendaftar sebanyak 283 peserta yang berasal dari 27 perguruan tinggi, termasuk Universitas Brawijaya. Peserta yang berpartisipasi berasal dari 11 provinsi di Indonesia, termasuk Jawa Timur. Para peserta terbagi ke dalam dua kategori lomba, yaitu kategori tim dan kategori individu pada cabang lomba Creative Poster.
         </p>
 
         {/* === GAMBAR LABEL LOMBA (SATU GAMBAR) === */}
