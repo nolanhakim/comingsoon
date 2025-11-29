@@ -102,8 +102,8 @@ export default function LombaSection() {
         <p className="text-gray-700 mb-10 max-w-2xl mx-auto text-center">
         </p>
 
-        {/* === GAMBAR LABEL LOMBA (SATU GAMBAR) === */}
-        <div className="flex justify-center mb-12">
+{/* === GAMBAR LABEL LOMBA (SATU GAMBAR) === */}
+        <div className="flex justify-center mb-8">
           <Image
             src="/asset/lomba.png"
             alt="Label Bidang dan Tangkai Lomba"
@@ -112,6 +112,27 @@ export default function LombaSection() {
             className="object-contain drop-shadow-[0_0_12px_rgba(95,17,36,0.4)]"
           />
         </div>
+
+        {/* === TEKS STATISTIK CREANOMIC 2025 === */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="max-w-5xl mx-auto mb-16"
+        >
+          <div className="relative bg-gradient-to-br from-white to-gray-50 rounded-3xl p-8 md:p-10 shadow-xl border-2 border-[#5F1124]/10">
+            {/* Decorative Elements */}
+            <div className="absolute top-0 left-0 w-32 h-32 bg-[#5F1124]/5 rounded-full blur-2xl"></div>
+            <div className="absolute bottom-0 right-0 w-40 h-40 bg-amber-500/5 rounded-full blur-2xl"></div>
+            
+            <div className="relative">
+              <p className="text-gray-700 leading-relaxed text-base md:text-lg text-center">
+                <span className="font-bold text-[#5F1124]">Creanomic 2025</span> sukses diselenggarakan dengan jumlah pendaftar sebanyak <span className="font-semibold text-[#5F1124]">285 peserta</span> yang berasal dari <span className="font-semibold text-[#5F1124]">29 perguruan tinggi</span>, termasuk Universitas Brawijaya. Peserta yang berpartisipasi berasal dari <span className="font-semibold text-[#5F1124]">12 provinsi</span> di Indonesia, termasuk Jawa Timur. Para peserta terbagi ke dalam beberapa cabang dan kategori lomba, yaitu <span className="font-semibold text-[#5F1124]">Web Development</span> dengan total 20 tim, <span className="font-semibold text-[#5F1124]">LKTI</span> dengan 31 tim, <span className="font-semibold text-[#5F1124]">Financial Planner</span> dengan 17 tim, <span className="font-semibold text-[#5F1124]">Business Case</span> dengan 30 tim, serta <span className="font-semibold text-[#5F1124]">Creative Poster</span> yang diikuti oleh 41 peserta individu.
+              </p>
+            </div>
+          </div>
+        </motion.div>
 
         {/* === GRID LOMBA DENGAN FINALIS === */}
         <div className="relative max-w-7xl mx-auto space-y-16">
